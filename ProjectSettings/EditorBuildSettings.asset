@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Project/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_Project/Scenes/00_MainMenu.unity
+    guid: 83df66273fe5c8449be77cdef9e547f8
+  - enabled: 1
+    path: Assets/_Project/Scenes/00_Boot.unity
+    guid: bd985f4d0d144734cb6d3eabe1ad8c82
+  - enabled: 1
+    path: Assets/_Project/Scenes/01_Town_Greybox.unity
+    guid: 1756dc59636c85a4d9b2f87b2dd9ba81
+  - enabled: 1
+    path: Assets/_Project/Scenes/02_Church_Greybox.unity
+    guid: b40154e227f31d245827c5f589d0025d
+  - enabled: 1
+    path: Assets/_Project/Scenes/03_End.unity
+    guid: e7895d0379dfadb4f9f50566260b38b9
+  - enabled: 1
+    path: Assets/_Project/Scenes/99_Defeat.unity
+    guid: a0408d7f129b9524491929bab58a68cb
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 26fabbaab39c5164c87db8ee3ebf132e, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 87138148e0aef4b41964a9041c808aed, type: 3}
+  m_UseUCBPForAssetBundles: 0
