@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 3444602661112505467}
   - component: {fileID: 399166794973492929}
   - component: {fileID: 1042376403533018201}
+  - component: {fileID: 5758209357179009616}
+  - component: {fileID: 7824998544410899057}
   - component: {fileID: 2453239270375305760}
+  - component: {fileID: 4570352330866017884}
   - component: {fileID: 8043309410723009949}
   m_Layer: 3
   m_Name: Pickup_Key_Ritual
@@ -58,6 +61,37 @@ MonoBehaviour:
   prompt: 'E: Interact'
   itemId: Key_Ritual
   sfx: {fileID: 0}
+--- !u!114 &5758209357179009616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547393290933429046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e025aa3326119a478dfaadf6e217cc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepId: consigue_llave
+  activeWhenOnStep: 1
+  targets: []
+--- !u!114 &7824998544410899057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547393290933429046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0e4d89c26e3dd409fa19562c9b4c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prompt: 'E: Interact'
+  stepIdToComplete: consigue_llave
+  inventoryItemId: Key_Ritual
+  modelToHide: {fileID: 0}
 --- !u!23 &2453239270375305760
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -103,6 +137,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4570352330866017884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547393290933429046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d52135140a820c49a19e397bff1b880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
 --- !u!65 &8043309410723009949
 BoxCollider:
   m_ObjectHideFlags: 0
